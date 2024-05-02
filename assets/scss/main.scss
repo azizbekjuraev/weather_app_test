@@ -121,6 +121,7 @@ input:focus {
   border-radius: 10px;
   padding: 1rem;
   position: relative;
+  overflow: hidden;
 }
 .cloud--img {
   position: absolute;
@@ -219,5 +220,16 @@ input:focus {
   }
   .cards--btns {
     margin-top: 2rem;
+  }
+}
+@media (max-width: 410px) {
+  .single--card-left {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .single--card-left {
+    gap: 2rem;
   }
 }
